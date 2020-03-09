@@ -1,0 +1,58 @@
+PODS:
+  - Action (4.0.0):
+    - RxCocoa (~> 5.0)
+    - RxSwift (~> 5.0)
+  - IGListKit (3.4.0):
+    - IGListKit/Default (= 3.4.0)
+  - IGListKit/Default (3.4.0):
+    - IGListKit/Diffing
+  - IGListKit/Diffing (3.4.0)
+  - RxCocoa (5.0.0):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxGesture (3.0.0):
+    - RxCocoa (~> 5.0)
+    - RxSwift (~> 5.0)
+  - RxRelay (5.0.0):
+    - RxSwift (~> 5)
+  - RxSwift (5.0.0)
+  - SnapKit (4.2.0)
+  - SwiftyJSON (5.0.0)
+  - YYModel (1.0.4)
+
+DEPENDENCIES:
+  - Action
+  - IGListKit
+  - RxCocoa (~> 5)
+  - RxGesture
+  - RxSwift (~> 5)
+  - SnapKit
+  - SwiftyJSON
+  - YYModel
+
+SPEC REPOS:
+  trunk:
+    - Action
+    - IGListKit
+    - RxCocoa
+    - RxGesture
+    - RxRelay
+    - RxSwift
+    - SnapKit
+    - SwiftyJSON
+    - YYModel
+
+SPEC CHECKSUMS:
+  Action: 0d14986aad0f1330aa27ce65d0cdeaacbb63d91c
+  IGListKit: 7a5d788e9fb746bcd402baa8e8b24bc3bd2a5a07
+  RxCocoa: fcf32050ac00d801f34a7f71d5e8e7f23026dcd8
+  RxGesture: 0cd8e37ff9a266e1c31f46bcaed6de1c536bc81e
+  RxRelay: 4f7409406a51a55cd88483f21ed898c234d60f18
+  RxSwift: 8b0671caa829a763bbce7271095859121cbd895f
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+
+PODFILE CHECKSUM: 03c66d22897fae95f838eafcb8f5d330c1630b67
+
+COCOAPODS: 1.8.3

@@ -1,0 +1,16 @@
+platform :ios, "8.0"
+use_frameworks!
+
+target 'FunVideo' do
+
+use_frameworks!
+pod 'SwiftyJSON'
+pod 'SnapKit'
+pod 'YYModel'
+pod 'Action'
+pod 'RxGesture'
+pod 'RxSwift', '~> 5'
+pod 'RxCocoa', '~> 5'
+pod 'IGListKit'
+
+end

@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40225938ABEED404645AE579 /* Pods_FunVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2341F22D29A5ABD356465D1E /* Pods_FunVideo.framework */; };
+		C52510B32328AF16001C2E3A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52510B22328AF16001C2E3A /* AppDelegate.swift */; };
+		C52510B72328AF16001C2E3A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52510B62328AF16001C2E3A /* ViewController.swift */; };
+		C52510BD2328AF17001C2E3A /* FunVideo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C52510BB2328AF17001C2E3A /* FunVideo.xcdatamodeld */; };
+		C52510BF2328AF1B001C2E3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C52510BE2328AF1B001C2E3A /* Assets.xcassets */; };
+		C52510C22328AF1B001C2E3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C52510C02328AF1B001C2E3A /* LaunchScreen.storyboard */; };
+		C557628E23A87E62006E3071 /* FVStudySwiftVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C557628D23A87E61006E3071 /* FVStudySwiftVC.swift */; };
+		C5CCF20B233C4E0F00FF7FF3 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CCF20A233C4E0F00FF7FF3 /* SwiftUIView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2341F22D29A5ABD356465D1E /* Pods_FunVideo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FunVideo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BA5C0FB53F6FBCA42AD7886 /* Pods-FunVideo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FunVideo.debug.xcconfig"; path = "Target Support Files/Pods-FunVideo/Pods-FunVideo.debug.xcconfig"; sourceTree = "<group>"; };
+		8C17EA1D3CDFDF3FE7548207 /* Pods-FunVideo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FunVideo.release.xcconfig"; path = "Target Support Files/Pods-FunVideo/Pods-FunVideo.release.xcconfig"; sourceTree = "<group>"; };
+		C52510AF2328AF16001C2E3A /* FunVideo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunVideo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C52510B22328AF16001C2E3A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C52510B62328AF16001C2E3A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C52510BC2328AF17001C2E3A /* FunVideo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FunVideo.xcdatamodel; sourceTree = "<group>"; };
+		C52510BE2328AF1B001C2E3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C52510C12328AF1B001C2E3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C52510C32328AF1B001C2E3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C557628D23A87E61006E3071 /* FVStudySwiftVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FVStudySwiftVC.swift; sourceTree = "<group>"; };
+		C5CCF20A233C4E0F00FF7FF3 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C52510AC2328AF16001C2E3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40225938ABEED404645AE579 /* Pods_FunVideo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23B8EB06B0CDCB2A1C90EA14 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6BA5C0FB53F6FBCA42AD7886 /* Pods-FunVideo.debug.xcconfig */,
+				8C17EA1D3CDFDF3FE7548207 /* Pods-FunVideo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		77EA180BEDE04CBB7AD2F31B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2341F22D29A5ABD356465D1E /* Pods_FunVideo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C52510A62328AF16001C2E3A = {
+			isa = PBXGroup;
+			children = (
+				C52510B12328AF16001C2E3A /* FunVideo */,
+				C52510B02328AF16001C2E3A /* Products */,
+				23B8EB06B0CDCB2A1C90EA14 /* Pods */,
+				77EA180BEDE04CBB7AD2F31B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C52510B02328AF16001C2E3A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C52510AF2328AF16001C2E3A /* FunVideo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C52510B12328AF16001C2E3A /* FunVideo */ = {
+			isa = PBXGroup;
+			children = (
+				C52510B22328AF16001C2E3A /* AppDelegate.swift */,
+				C52510B62328AF16001C2E3A /* ViewController.swift */,
+				C52510BE2328AF1B001C2E3A /* Assets.xcassets */,
+				C52510C02328AF1B001C2E3A /* LaunchScreen.storyboard */,
+				C52510C32328AF1B001C2E3A /* Info.plist */,
+				C52510BB2328AF17001C2E3A /* FunVideo.xcdatamodeld */,
+				C5CCF20A233C4E0F00FF7FF3 /* SwiftUIView.swift */,
+				C557628D23A87E61006E3071 /* FVStudySwiftVC.swift */,
+			);
+			path = FunVideo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C52510AE2328AF16001C2E3A /* FunVideo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C52510C62328AF1B001C2E3A /* Build configuration list for PBXNativeTarget "FunVideo" */;
+			buildPhases = (
+				2D2D8C754CE4D402D8C9E5CB /* [CP] Check Pods Manifest.lock */,
+				C52510AB2328AF16001C2E3A /* Sources */,
+				C52510AC2328AF16001C2E3A /* Frameworks */,
+				C52510AD2328AF16001C2E3A /* Resources */,
+				6DBA3DDEDF60BF631BC237BF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FunVideo;
+			productName = FunVideo;
+			productReference = C52510AF2328AF16001C2E3A /* FunVideo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C52510A72328AF16001C2E3A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "yang wenjie";
+				TargetAttributes = {
+					C52510AE2328AF16001C2E3A = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = C52510AA2328AF16001C2E3A /* Build configuration list for PBXProject "FunVideo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C52510A62328AF16001C2E3A;
+			productRefGroup = C52510B02328AF16001C2E3A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C52510AE2328AF16001C2E3A /* FunVideo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C52510AD2328AF16001C2E3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C52510C22328AF1B001C2E3A /* LaunchScreen.storyboard in Resources */,
+				C52510BF2328AF1B001C2E3A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2D2D8C754CE4D402D8C9E5CB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FunVideo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6DBA3DDEDF60BF631BC237BF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FunVideo/Pods-FunVideo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FunVideo/Pods-FunVideo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FunVideo/Pods-FunVideo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C52510AB2328AF16001C2E3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C52510B72328AF16001C2E3A /* ViewController.swift in Sources */,
+				C52510BD2328AF17001C2E3A /* FunVideo.xcdatamodeld in Sources */,
+				C557628E23A87E62006E3071 /* FVStudySwiftVC.swift in Sources */,
+				C52510B32328AF16001C2E3A /* AppDelegate.swift in Sources */,
+				C5CCF20B233C4E0F00FF7FF3 /* SwiftUIView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C52510C02328AF1B001C2E3A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C52510C12328AF1B001C2E3A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C52510C42328AF1B001C2E3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C52510C52328AF1B001C2E3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C52510C72328AF1B001C2E3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BA5C0FB53F6FBCA42AD7886 /* Pods-FunVideo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J9L6B23EPP;
+				INFOPLIST_FILE = FunVideo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = YWJ.FunVideo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C52510C82328AF1B001C2E3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C17EA1D3CDFDF3FE7548207 /* Pods-FunVideo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J9L6B23EPP;
+				INFOPLIST_FILE = FunVideo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = YWJ.FunVideo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C52510AA2328AF16001C2E3A /* Build configuration list for PBXProject "FunVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C52510C42328AF1B001C2E3A /* Debug */,
+				C52510C52328AF1B001C2E3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C52510C62328AF1B001C2E3A /* Build configuration list for PBXNativeTarget "FunVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C52510C72328AF1B001C2E3A /* Debug */,
+				C52510C82328AF1B001C2E3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C52510BB2328AF17001C2E3A /* FunVideo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C52510BC2328AF17001C2E3A /* FunVideo.xcdatamodel */,
+			);
+			currentVersion = C52510BC2328AF17001C2E3A /* FunVideo.xcdatamodel */;
+			path = FunVideo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C52510A72328AF16001C2E3A /* Project object */;
+}
