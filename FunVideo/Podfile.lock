@@ -2,6 +2,7 @@ PODS:
   - Action (4.0.0):
     - RxCocoa (~> 5.0)
     - RxSwift (~> 5.0)
+  - Alamofire (4.9.1)
   - IGListKit (3.4.0):
     - IGListKit/Default (= 3.4.0)
   - IGListKit/Default (3.4.0):
@@ -22,6 +23,7 @@ PODS:
 
 DEPENDENCIES:
   - Action
+  - Alamofire
   - IGListKit
   - RxCocoa (~> 5)
   - RxGesture
@@ -33,6 +35,7 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - Action
+    - Alamofire
     - IGListKit
     - RxCocoa
     - RxGesture
@@ -44,6 +47,7 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   Action: 0d14986aad0f1330aa27ce65d0cdeaacbb63d91c
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
   IGListKit: 7a5d788e9fb746bcd402baa8e8b24bc3bd2a5a07
   RxCocoa: fcf32050ac00d801f34a7f71d5e8e7f23026dcd8
   RxGesture: 0cd8e37ff9a266e1c31f46bcaed6de1c536bc81e
@@ -53,6 +57,6 @@ SPEC CHECKSUMS:
   SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
-PODFILE CHECKSUM: 03c66d22897fae95f838eafcb8f5d330c1630b67
+PODFILE CHECKSUM: 76ebeec46c211f11d365ae84d3f4d8942822903d
 
 COCOAPODS: 1.8.3

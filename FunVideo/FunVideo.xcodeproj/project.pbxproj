@@ -14,6 +14,9 @@
 		C52510BF2328AF1B001C2E3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C52510BE2328AF1B001C2E3A /* Assets.xcassets */; };
 		C52510C22328AF1B001C2E3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C52510C02328AF1B001C2E3A /* LaunchScreen.storyboard */; };
 		C557628E23A87E62006E3071 /* FVStudySwiftVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C557628D23A87E61006E3071 /* FVStudySwiftVC.swift */; };
+		C55C42292416429E00A129F8 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55C42282416429D00A129F8 /* LoginController.swift */; };
+		C55C422D2417CA7300A129F8 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55C422C2417CA7300A129F8 /* TabBarController.swift */; };
+		C5A019BE243C1E7B000698AD /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A019BD243C1E7B000698AD /* LoginService.swift */; };
 		C5CCF20B233C4E0F00FF7FF3 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CCF20A233C4E0F00FF7FF3 /* SwiftUIView.swift */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +32,9 @@
 		C52510C12328AF1B001C2E3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C52510C32328AF1B001C2E3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C557628D23A87E61006E3071 /* FVStudySwiftVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FVStudySwiftVC.swift; sourceTree = "<group>"; };
+		C55C42282416429D00A129F8 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		C55C422C2417CA7300A129F8 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		C5A019BD243C1E7B000698AD /* LoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
 		C5CCF20A233C4E0F00FF7FF3 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -82,6 +88,9 @@
 		C52510B12328AF16001C2E3A /* FunVideo */ = {
 			isa = PBXGroup;
 			children = (
+				C55C4225241641CD00A129F8 /* Global */,
+				C55C42242416418B00A129F8 /* Common */,
+				C55C42232416408700A129F8 /* Module */,
 				C52510B22328AF16001C2E3A /* AppDelegate.swift */,
 				C52510B62328AF16001C2E3A /* ViewController.swift */,
 				C52510BE2328AF1B001C2E3A /* Assets.xcassets */,
@@ -92,6 +101,78 @@
 				C557628D23A87E61006E3071 /* FVStudySwiftVC.swift */,
 			);
 			path = FunVideo;
+			sourceTree = "<group>";
+		};
+		C55C42232416408700A129F8 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				C55C42262416422B00A129F8 /* Login */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		C55C42242416418B00A129F8 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				C55C422B2417C9DF00A129F8 /* Navigation */,
+				C55C422A2417C97300A129F8 /* Tabbar */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		C55C4225241641CD00A129F8 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				C56534A62442EDA900A9BBD0 /* Extenstion */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		C55C42262416422B00A129F8 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				C5A019BC243C1E44000698AD /* Service */,
+				C55C42272416423F00A129F8 /* Controller */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		C55C42272416423F00A129F8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C55C42282416429D00A129F8 /* LoginController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C55C422A2417C97300A129F8 /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				C55C422C2417CA7300A129F8 /* TabBarController.swift */,
+			);
+			path = Tabbar;
+			sourceTree = "<group>";
+		};
+		C55C422B2417C9DF00A129F8 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		C56534A62442EDA900A9BBD0 /* Extenstion */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extenstion;
+			sourceTree = "<group>";
+		};
+		C5A019BC243C1E44000698AD /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				C5A019BD243C1E7B000698AD /* LoginService.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -209,10 +290,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				C52510B72328AF16001C2E3A /* ViewController.swift in Sources */,
+				C55C42292416429E00A129F8 /* LoginController.swift in Sources */,
 				C52510BD2328AF17001C2E3A /* FunVideo.xcdatamodeld in Sources */,
 				C557628E23A87E62006E3071 /* FVStudySwiftVC.swift in Sources */,
+				C55C422D2417CA7300A129F8 /* TabBarController.swift in Sources */,
 				C52510B32328AF16001C2E3A /* AppDelegate.swift in Sources */,
 				C5CCF20B233C4E0F00FF7FF3 /* SwiftUIView.swift in Sources */,
+				C5A019BE243C1E7B000698AD /* LoginService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -58,7 +58,6 @@ class FVStudySwiftVC: UIViewController {
         
         operationAdd()
         
-        distance(from: <#T##CGPoint#>, to: <#T##CGPoint#>)
         
     }
     
